@@ -11,22 +11,24 @@ fbc CardFlipper.bas
 ```
 
 # Gameplay
-Objective: eliminate all of the cards quickly (to gain a high score)
 
-- There are 5 levels of difficulty, with the following differences (available in settings, defalts to 1 - easiest):
-  - The range of numbers that can be on the cards (between 0-4 and 0-9)
-  - The completion requirements (between 60/80 and 80/80 cards eliminated)
+See the [full tutorial](tutorial/TUTORIAL.md "Card Flipper Tutorial") for a guided walk-through of gameplay (with screenshots).
 
-## Controls
-**Core**:
-- **Left-click-and-drag** across 3 or more cards with the same value to eliminate them
-  - The more cards eliminated simultaineously, the more score the elimination is worth
-- **Double-left-click** on a card to flip it
-- **Right-click** on a card to select it, then **Right-click** on another card of the same upward-facing value to swap their positions
+## Overview (Cheat Sheet)
 
-**Tools**:
+**Objective**: eliminate all of the cards quickly (to gain a high score)
+
+**Difficulty Levels**:
+- The range of numbers that can be on the cards (between 0-4 and 0-9)
+- The completion requirements (between 60/80 and 80/80 cards eliminated)
+
+**Controls**:
 - **Hover** over a card to see the value on both sides (in the top bar)
 - **Left-click** on a card to highlight all other cards with the same number (on either side) as the upward facing value of the clicked card
+- **Double-left-click** on a card to flip it
+- **Right-click** on a card to select it, then **Right-click** on another card of the same upward-facing value to swap their positions
+- **Left-click-and-drag** across 3 or more cards with the same value to eliminate them
+  - The more cards eliminated simultaineously, the more score the elimination is worth (added score is: 3 * numCardsEliminated)
 
 # Known Issues
 - `Continue` button doesn't always function correctly.
